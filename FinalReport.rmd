@@ -42,12 +42,23 @@ when I looked at the Mydata file, we use the cat_cat.rmd help file to let us kno
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
+
+
+
 ## Descriptive Results
 
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+```{r}
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+
+
+Based on the graph we can the difference on how the white race is more in favor of cappun than black and other races. We can also see that the black race is more opposed to cappun than both white race and other races.
 
 
 ## Now with The Most data (fewer variables gives more data points)
