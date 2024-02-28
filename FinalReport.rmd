@@ -70,6 +70,13 @@ Based on the graph we can the difference on how the white race is more in favor 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+This table shows the exact percentage of the races who are in favor or opposed to cappun. Based on the table we can infer that white people are the most in favor or cappun with 65.10% and black people are the most opposed to it with 34.90%. Others races are in between with 55.20% in favor and 44.80% opposed to cappun.
 
 
 ## Now with More data
