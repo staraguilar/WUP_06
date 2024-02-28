@@ -64,8 +64,13 @@ By looking at the graph we can come to the conclusion that the white race is the
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
+By looking at the table we have the exact percentage of those in favor or opposed to cappun. The white race is 65.10% in favor of cappun while the black race is 34.90% opposed to cappun, other races are in between with 55.20% in favor and 44.80% opposed.
 
 
 
