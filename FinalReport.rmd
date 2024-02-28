@@ -87,7 +87,11 @@ fisher.test(table1)
 
 This graph is not accurate enough so we will need to make a fisherXY test.
 
+```{r}
+fisherXY(mydata$race, mydata$cappun)
+```
 
+This table is more accurate and we can tell that all races are different.
 
 # Discussion and Conclusion
 
