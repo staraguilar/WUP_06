@@ -12,6 +12,7 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
+source(file="fisherXY.R")
 require(tidyverse)
 require(tigerstats)
 require(knitr)
@@ -88,10 +89,10 @@ fisher.test(table1)
 This graph is not accurate enough so we will need to make a fisherXY test.
 
 ```{r}
-fisherXY(mydata$race, mydata$cappun)
+fisherXY(mydata$race, mydata$cappun,printAll = TRUE)
 ```
 
-This table is more accurate and we can tell that all races are different.
+This table is more accurate and we can tell that the only difference is between the white and black race.
 
 # Discussion and Conclusion
 
