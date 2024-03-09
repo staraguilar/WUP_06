@@ -108,3 +108,6 @@ when we ran fisherXY test we can see that each race is different than each other
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+Overall the results in the master branch and number 2 branch seem to be similar but I found a difference in both of the branches when running the fisherXY file. In my master branch is shows more people on the fisherXY test while in my number 2 branch is shows less people in the test. 
